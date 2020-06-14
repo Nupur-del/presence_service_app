@@ -1,5 +1,5 @@
 {
-  "name": "car_mechanics_mon",
+  "name": "passport",
   "version": "1.0.0",
   "description": "Use this app to avail the car services easily",
   "main": "server.js",
@@ -16,12 +16,14 @@
   "author": "nupur",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.1",
+    "mongoose": "^5.9.18",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0"
-  }
+  },
+  "devDependencies": {}
 }
